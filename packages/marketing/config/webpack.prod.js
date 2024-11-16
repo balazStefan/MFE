@@ -7,6 +7,7 @@ const productionConfig = {
     mode:'production',
     output:{
         filename:'[name].[contenthash].js',
+        publicPath:'/marketing/latest/'
     },
     // TODO: if is same like prod it can be extraxted to common - same like dev
     plugins:[
